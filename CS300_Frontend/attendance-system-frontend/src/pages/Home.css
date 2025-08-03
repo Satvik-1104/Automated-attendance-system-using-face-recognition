@@ -1,0 +1,127 @@
+/* Home Component Styles */
+.student-home-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.student-page-title {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  color: #2c3e50;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.student-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.student-stat-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.student-stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.student-stat-card-title {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+.student-stat-card-value {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  color: #2c3e50;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Status-specific colors */
+.student-absent-classes .student-stat-card-value {
+  color: #e74c3c;
+}
+
+.student-pending-corrections .student-stat-card-value {
+  color: #f1c40f;
+}
+
+.student-attended-classes .student-stat-card-value {
+  color: #2ecc71;
+}
+
+/* Loading and Error States */
+.student-loading,
+.student-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 1.5rem;
+  color: #3498db;
+  animation: fadeIn 0.3s ease;
+}
+
+.student-error {
+  color: #e74c3c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading Spinner */
+.student-loading::after {
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border: 3px solid rgba(52, 152, 219, 0.3);
+  border-radius: 50%;
+  border-top-color: #3498db;
+  animation: spin 1s ease-in-out infinite;
+  margin-left: 0.5em;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .student-home-container {
+    padding: 1.5rem;
+  }
+
+  .student-stats-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .student-stat-card {
+    padding: 1.2rem;
+  }
+}

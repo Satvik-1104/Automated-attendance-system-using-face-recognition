@@ -1,0 +1,205 @@
+/* Employee Attendance Reports Styles */
+.attendance-reports-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  animation: slideIn 0.4s ease-out;
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 0.8rem;
+  display: inline-block;
+}
+
+/* Filters Section */
+.filters-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filter-group label {
+  font-weight: 500;
+  color: #576574;
+  font-size: 0.95rem;
+}
+
+.form-control {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+select.form-control {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 1em;
+}
+
+/* Attendance Table */
+.table-container {
+  border: 1px solid #e0e6ed;
+  border-radius: 10px;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  min-width: 800px;
+}
+
+.attendance-table th {
+  background: #2c3e50;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: left;
+}
+
+.attendance-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e6ed;
+  color: #2c3e50;
+}
+
+.attendance-table tr:last-child td {
+  border-bottom: none;
+}
+
+.attendance-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Status Badges */
+.status-badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-badge.present {
+  background: #e8f5e9;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+
+.status-badge.absent {
+  background: #ffebee;
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+/* Empty State */
+.no-records {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  border: 2px dashed #e0e6ed;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+/* Loading States */
+.loading,
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: #e74c3c;
+}
+
+.loading::after {
+  content: "";
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  border: 2px solid rgba(52, 152, 219, 0.3);
+  border-radius: 50%;
+  border-top-color: #3498db;
+  animation: spin 1s linear infinite;
+  margin-left: 0.5em;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .attendance-reports-container {
+    padding: 1rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  .filters-container {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-control {
+    padding: 0.5rem 0.8rem;
+  }
+
+  .attendance-table td,
+  .attendance-table th {
+    padding: 0.8rem;
+  }
+}

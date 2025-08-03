@@ -1,0 +1,9 @@
+
+Video: test_video\final_test_out.mp4 (Stream ID: 1)
+Track ID | Entry Frame | Exit Frame | Appearances | Quality | Entered Through Border
+--------------------------------------------------------------------------------
+1 | 18 | 130 | 81 | 0.908 | No
+0 | 9 | 139 | 93 | 0.887 | No
+5 | 126 | 163 | 6 | 0.714 | No
+4 | 118 | 206 | 44 | 0.880 | No
+6 | 160 | 239 | 46 | 0.873 | No

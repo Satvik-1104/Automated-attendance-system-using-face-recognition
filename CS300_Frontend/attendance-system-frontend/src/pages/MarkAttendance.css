@@ -1,0 +1,269 @@
+/* Mark Attendance Styles */
+.mark-attendance-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeInUp 0.4s ease-out;
+  width: 100%; /* Ensure container uses full width */
+  box-sizing: border-box; /* Prevent padding from adding to width */
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.page-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #3498db;
+  margin: 0.8rem auto;
+  border-radius: 2px;
+}
+
+/* Form Layout */
+.attendance-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  color: #576574;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box; /* Important for proper sizing */
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+select.form-control {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 1em;
+}
+
+/* Buttons */
+.btn {
+  padding: 1rem 1.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.btn-primary {
+  background: #3498db;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+}
+
+.btn-success {
+  background: #27ae60;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #219a52;
+  transform: translateY(-1px);
+}
+
+.btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Students Table */
+.attendance-table-container {
+  width: 100%;
+  overflow-x: auto; /* Move overflow to a container */
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.attendance-table th {
+  background: #2c3e50;
+  color: white;
+  padding: 1.2rem;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap; /* Keep headers from wrapping */
+}
+
+.attendance-table td {
+  padding: 1.2rem;
+  border-bottom: 1px solid #e0e6ed;
+  color: #2c3e50;
+}
+
+.attendance-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+.checkbox-cell {
+  text-align: center;
+}
+
+.checkbox-cell input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #3498db;
+}
+
+.checkbox-cell input[type="checkbox"]:disabled {
+  accent-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Filter Section */
+.roll-filter {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.attendance-hint {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+/* Messages */
+.success-message {
+  color: #27ae60;
+  background: #e8f5e9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #27ae60;
+}
+
+.error-message {
+  color: #e74c3c;
+  background: #ffebee;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e74c3c;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.2rem;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mark-attendance-container {
+    padding: 1rem;
+  }
+
+  .attendance-form {
+    padding: 1.5rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  /* Make sure navigation elements stack properly */
+  .nav-menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* If you have menu options, ensure they're centered */
+  .menu-options {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-control {
+    padding: 0.7rem 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.9rem;
+    margin: 0.5rem 0; /* Remove horizontal margin on mobile */
+  }
+
+  .attendance-table th,
+  .attendance-table td {
+    padding: 0.8rem;
+  }
+
+  /* Additional tweak for very small screens */
+  .checkbox-cell input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+}

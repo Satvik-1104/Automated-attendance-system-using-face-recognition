@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CS300_Frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CS300_Frontend/attendance-system-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CS300_Frontend/node_apps/FaceRegistrationApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Face-Recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Project/actual_stuff" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Project/actual_stuff/application/insightface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/StudentFaceRegister" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/insightface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/node_apps/FaceRegistrationApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/open_model_zoo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject/attendance_system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject/attendance_system/uploads/students_augmented/attendance_system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/retinaface-pytorch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/safe/CS300_Frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/safe/CS300_Frontend/node_apps/FaceRegistrationApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scripts/Face-Recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/student_app" vcs="Git" />
+  </component>
+</project>

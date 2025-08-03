@@ -1,0 +1,210 @@
+/* Employee Dashboard Home Styles */
+.employee-home-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  animation: professionalEntrance 0.4s ease-out;
+}
+
+.employee-page-title {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  color: #2c3e50;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.employee-page-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #3498db;
+  margin: 0.8rem auto;
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+.employee-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+.employee-stat-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #e0e6ed;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.employee-stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #3498db;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.employee-stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.employee-stat-card:hover::before {
+  opacity: 1;
+}
+
+.employee-stat-card h3 {
+  font-size: 1.3rem;
+  color: #576574;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.employee-stat-value {
+  font-size: clamp(2.4rem, 5.5vw, 3.2rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  line-height: 1.2;
+  position: relative;
+}
+
+/* Employee-specific Color Scheme */
+.scheduled-classes .employee-stat-value {
+  color: #8e44ad;
+  background: linear-gradient(135deg, #8e44ad, #9b59b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pending-corrections .employee-stat-value {
+  color: #e67e22;
+  background: linear-gradient(135deg, #e67e22, #f39c12);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.attendance-marked .employee-stat-value {
+  color: #27ae60;
+  background: linear-gradient(135deg, #27ae60, #2ecc71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Employee Loading States */
+.employee-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 1.5rem;
+  color: #3498db;
+}
+
+.employee-loading::after {
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border: 3px solid rgba(52, 152, 219, 0.2);
+  border-radius: 50%;
+  border-top-color: #3498db;
+  animation: spin 1s linear infinite;
+  margin-left: 0.8em;
+}
+
+/* Animations */
+@keyframes professionalEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .employee-home-container {
+    padding: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .employee-stats-grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 1.8rem;
+  }
+
+  .employee-stat-card {
+    padding: 2rem;
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .employee-page-title {
+    font-size: 1.7rem;
+  }
+
+  .employee-stat-value {
+    font-size: 2.4rem;
+  }
+
+  .employee-stat-card {
+    padding: 1.8rem;
+    min-height: 160px;
+  }
+}
+
+/* Enhanced Status Indicators */
+.employee-stat-card .status-indicator {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.scheduled-classes .status-indicator {
+  background: #8e44ad;
+  box-shadow: 0 0 8px rgba(142, 68, 173, 0.3);
+}
+
+.pending-corrections .status-indicator {
+  background: #e67e22;
+  box-shadow: 0 0 8px rgba(230, 126, 34, 0.3);
+}
+
+.attendance-marked .status-indicator {
+  background: #27ae60;
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.3);
+}

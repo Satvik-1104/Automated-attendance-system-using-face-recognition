@@ -1,0 +1,1627 @@
+
+Processing video: test_video\final_test_out.mp4 (Stream ID: 1)
+Parameters: expansion_factor=1.3, confidence_threshold=0.5, high_confidence_threshold=0.8, starting_id=0
+Starting from frame: 0
+================================================================================
+Frame 1: No faces detected above tracking threshold (0.5)
+Frame 2: No faces detected above tracking threshold (0.5)
+Frame 3: No faces detected above tracking threshold (0.5)
+Frame 4: No faces detected above tracking threshold (0.5)
+Frame 5: No faces detected above tracking threshold (0.5)
+Frame 6: No faces detected above tracking threshold (0.5)
+Frame 7: No faces detected above tracking threshold (0.5)
+Frame 8: No faces detected above tracking threshold (0.5)
+Frame 9, Track 0: Detected (confidence: 0.521) but not saved (below 0.8)
+  Came in through border: False
+Frame 10: No faces detected above tracking threshold (0.5)
+Frame 11: No faces detected above tracking threshold (0.5)
+Frame 12: No faces detected above tracking threshold (0.5)
+Frame 13: No faces detected above tracking threshold (0.5)
+Frame 14: No faces detected above tracking threshold (0.5)
+Frame 15, Track 0: Detected (confidence: 0.621) but not saved (below 0.8)
+  Came in through border: False
+Frame 16, Track 0: Detected (confidence: 0.711) but not saved (below 0.8)
+  Came in through border: False
+Frame 17, Track 0: Detected (confidence: 0.563) but not saved (below 0.8)
+  Came in through border: False
+Frame 18, Track 1: Detected (confidence: 0.562) but not saved (below 0.8)
+  Came in through border: False
+Frame 19, Track 0: Detected (confidence: 0.595) but not saved (below 0.8)
+  Came in through border: False
+Frame 19, Track 1: Detected (confidence: 0.666) but not saved (below 0.8)
+  Came in through border: False
+Frame 20, Track 0: Detected (confidence: 0.593) but not saved (below 0.8)
+  Came in through border: False
+Frame 20, Track 1: Detected (confidence: 0.653) but not saved (below 0.8)
+  Came in through border: False
+Frame 21, Track 0: Detected (confidence: 0.606) but not saved (below 0.8)
+  Came in through border: False
+Frame 21, Track 1: Detected (confidence: 0.548) but not saved (below 0.8)
+  Came in through border: False
+Frame 22, Track 0: Detected (confidence: 0.716) but not saved (below 0.8)
+  Came in through border: False
+Frame 22, Track 1: Detected (confidence: 0.741) but not saved (below 0.8)
+  Came in through border: False
+Frame 23, Track 0: Detected (confidence: 0.668) but not saved (below 0.8)
+  Came in through border: False
+Frame 23, Track 1: Detected (confidence: 0.709) but not saved (below 0.8)
+  Came in through border: False
+Frame 24, Track 0: Detected (confidence: 0.722) but not saved (below 0.8)
+  Came in through border: False
+Frame 24, Track 1: Detected (confidence: 0.772) but not saved (below 0.8)
+  Came in through border: False
+Frame 25, Track 0:
+  Confidence: 0.807
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000025_000.jpg
+--------------------------------------------------------------------------------
+Frame 25, Track 1: Detected (confidence: 0.711) but not saved (below 0.8)
+  Came in through border: False
+Frame 26, Track 0: Detected (confidence: 0.794) but not saved (below 0.8)
+  Came in through border: False
+Frame 26, Track 1: Detected (confidence: 0.785) but not saved (below 0.8)
+  Came in through border: False
+Frame 27, Track 0: Detected (confidence: 0.787) but not saved (below 0.8)
+  Came in through border: False
+Frame 27, Track 1:
+  Confidence: 0.809
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000027_000.jpg
+--------------------------------------------------------------------------------
+Frame 28, Track 0:
+  Confidence: 0.802
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000028_001.jpg
+--------------------------------------------------------------------------------
+Frame 28, Track 1: Detected (confidence: 0.799) but not saved (below 0.8)
+  Came in through border: False
+Frame 29, Track 0:
+  Confidence: 0.802
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000029_002.jpg
+--------------------------------------------------------------------------------
+Frame 29, Track 1:
+  Confidence: 0.820
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000029_001.jpg
+--------------------------------------------------------------------------------
+Frame 30, Track 0:
+  Confidence: 0.813
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000030_003.jpg
+--------------------------------------------------------------------------------
+Frame 30, Track 1: Detected (confidence: 0.798) but not saved (below 0.8)
+  Came in through border: False
+Frame 31, Track 0:
+  Confidence: 0.813
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000031_004.jpg
+--------------------------------------------------------------------------------
+Frame 31, Track 1:
+  Confidence: 0.824
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000031_002.jpg
+--------------------------------------------------------------------------------
+Frame 32, Track 0:
+  Confidence: 0.822
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000032_005.jpg
+--------------------------------------------------------------------------------
+Frame 32, Track 1:
+  Confidence: 0.806
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000032_003.jpg
+--------------------------------------------------------------------------------
+Frame 33, Track 0:
+  Confidence: 0.808
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000033_006.jpg
+--------------------------------------------------------------------------------
+Frame 33, Track 1:
+  Confidence: 0.832
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000033_004.jpg
+--------------------------------------------------------------------------------
+Frame 34, Track 0:
+  Confidence: 0.806
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000034_007.jpg
+--------------------------------------------------------------------------------
+Frame 34, Track 1:
+  Confidence: 0.832
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000034_005.jpg
+--------------------------------------------------------------------------------
+Frame 35, Track 0:
+  Confidence: 0.818
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000035_008.jpg
+--------------------------------------------------------------------------------
+Frame 35, Track 1:
+  Confidence: 0.811
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000035_006.jpg
+--------------------------------------------------------------------------------
+Frame 36, Track 0:
+  Confidence: 0.814
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000036_009.jpg
+--------------------------------------------------------------------------------
+Frame 36, Track 1:
+  Confidence: 0.825
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000036_007.jpg
+--------------------------------------------------------------------------------
+Frame 37, Track 0:
+  Confidence: 0.817
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000037_010.jpg
+--------------------------------------------------------------------------------
+Frame 37, Track 1:
+  Confidence: 0.842
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000037_008.jpg
+--------------------------------------------------------------------------------
+Frame 38, Track 0: Detected (confidence: 0.760) but not saved (below 0.8)
+  Came in through border: False
+Frame 38, Track 1:
+  Confidence: 0.837
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000038_009.jpg
+--------------------------------------------------------------------------------
+Frame 39, Track 0: Detected (confidence: 0.774) but not saved (below 0.8)
+  Came in through border: False
+Frame 39, Track 1:
+  Confidence: 0.819
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000039_010.jpg
+--------------------------------------------------------------------------------
+Frame 40, Track 0: Detected (confidence: 0.790) but not saved (below 0.8)
+  Came in through border: False
+Frame 40, Track 1: Detected (confidence: 0.786) but not saved (below 0.8)
+  Came in through border: False
+Frame 41, Track 0: Detected (confidence: 0.732) but not saved (below 0.8)
+  Came in through border: False
+Frame 41, Track 1: Detected (confidence: 0.780) but not saved (below 0.8)
+  Came in through border: False
+Frame 42, Track 0: Detected (confidence: 0.719) but not saved (below 0.8)
+  Came in through border: False
+Frame 42, Track 1: Detected (confidence: 0.788) but not saved (below 0.8)
+  Came in through border: False
+Frame 43, Track 0: Detected (confidence: 0.632) but not saved (below 0.8)
+  Came in through border: False
+Frame 43, Track 1: Detected (confidence: 0.796) but not saved (below 0.8)
+  Came in through border: False
+Frame 44, Track 0: Detected (confidence: 0.673) but not saved (below 0.8)
+  Came in through border: False
+Frame 44, Track 1:
+  Confidence: 0.804
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000044_011.jpg
+--------------------------------------------------------------------------------
+Frame 45, Track 0: Detected (confidence: 0.650) but not saved (below 0.8)
+  Came in through border: False
+Frame 45, Track 1:
+  Confidence: 0.802
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000045_012.jpg
+--------------------------------------------------------------------------------
+Frame 46, Track 0: Detected (confidence: 0.666) but not saved (below 0.8)
+  Came in through border: False
+Frame 46, Track 1: Detected (confidence: 0.787) but not saved (below 0.8)
+  Came in through border: False
+Frame 47, Track 0: Detected (confidence: 0.700) but not saved (below 0.8)
+  Came in through border: False
+Frame 47, Track 1: Detected (confidence: 0.785) but not saved (below 0.8)
+  Came in through border: False
+Frame 48, Track 0: Detected (confidence: 0.721) but not saved (below 0.8)
+  Came in through border: False
+Frame 48, Track 1:
+  Confidence: 0.800
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000048_013.jpg
+--------------------------------------------------------------------------------
+Frame 49, Track 0: Detected (confidence: 0.720) but not saved (below 0.8)
+  Came in through border: False
+Frame 49, Track 1: Detected (confidence: 0.777) but not saved (below 0.8)
+  Came in through border: False
+Frame 50, Track 0: Detected (confidence: 0.712) but not saved (below 0.8)
+  Came in through border: False
+Frame 50, Track 1: Detected (confidence: 0.753) but not saved (below 0.8)
+  Came in through border: False
+Frame 51, Track 0: Detected (confidence: 0.756) but not saved (below 0.8)
+  Came in through border: False
+Frame 51, Track 1: Detected (confidence: 0.762) but not saved (below 0.8)
+  Came in through border: False
+Frame 52, Track 0: Detected (confidence: 0.781) but not saved (below 0.8)
+  Came in through border: False
+Frame 52, Track 1: Detected (confidence: 0.745) but not saved (below 0.8)
+  Came in through border: False
+Frame 53, Track 0: Detected (confidence: 0.794) but not saved (below 0.8)
+  Came in through border: False
+Frame 53, Track 1: Detected (confidence: 0.797) but not saved (below 0.8)
+  Came in through border: False
+Frame 54, Track 0:
+  Confidence: 0.808
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000054_011.jpg
+--------------------------------------------------------------------------------
+Frame 54, Track 1:
+  Confidence: 0.816
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000054_014.jpg
+--------------------------------------------------------------------------------
+Frame 55, Track 0:
+  Confidence: 0.805
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000055_012.jpg
+--------------------------------------------------------------------------------
+Frame 55, Track 1:
+  Confidence: 0.803
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000055_015.jpg
+--------------------------------------------------------------------------------
+Frame 56, Track 0:
+  Confidence: 0.816
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000056_013.jpg
+--------------------------------------------------------------------------------
+Frame 56, Track 1: Detected (confidence: 0.795) but not saved (below 0.8)
+  Came in through border: False
+Frame 57, Track 0:
+  Confidence: 0.828
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000057_014.jpg
+--------------------------------------------------------------------------------
+Frame 57, Track 1: Detected (confidence: 0.799) but not saved (below 0.8)
+  Came in through border: False
+Frame 58, Track 0:
+  Confidence: 0.833
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000058_015.jpg
+--------------------------------------------------------------------------------
+Frame 58, Track 1:
+  Confidence: 0.815
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000058_016.jpg
+--------------------------------------------------------------------------------
+Frame 59, Track 0:
+  Confidence: 0.844
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000059_016.jpg
+--------------------------------------------------------------------------------
+Frame 59, Track 1:
+  Confidence: 0.839
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000059_017.jpg
+--------------------------------------------------------------------------------
+Frame 60, Track 0:
+  Confidence: 0.847
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000060_017.jpg
+--------------------------------------------------------------------------------
+Frame 60, Track 1:
+  Confidence: 0.851
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000060_018.jpg
+--------------------------------------------------------------------------------
+Frame 61, Track 0:
+  Confidence: 0.851
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000061_018.jpg
+--------------------------------------------------------------------------------
+Frame 61, Track 1:
+  Confidence: 0.860
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000061_019.jpg
+--------------------------------------------------------------------------------
+Frame 62, Track 0:
+  Confidence: 0.851
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000062_019.jpg
+--------------------------------------------------------------------------------
+Frame 62, Track 1:
+  Confidence: 0.860
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000062_020.jpg
+--------------------------------------------------------------------------------
+Frame 63, Track 0:
+  Confidence: 0.853
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000063_020.jpg
+--------------------------------------------------------------------------------
+Frame 63, Track 1:
+  Confidence: 0.862
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000063_021.jpg
+--------------------------------------------------------------------------------
+Frame 64, Track 0:
+  Confidence: 0.865
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000064_021.jpg
+--------------------------------------------------------------------------------
+Frame 64, Track 1:
+  Confidence: 0.868
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000064_022.jpg
+--------------------------------------------------------------------------------
+Frame 65, Track 0:
+  Confidence: 0.877
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000065_022.jpg
+--------------------------------------------------------------------------------
+Frame 65, Track 1:
+  Confidence: 0.874
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000065_023.jpg
+--------------------------------------------------------------------------------
+Frame 66, Track 0:
+  Confidence: 0.887
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000066_023.jpg
+--------------------------------------------------------------------------------
+Frame 66, Track 1:
+  Confidence: 0.879
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000066_024.jpg
+--------------------------------------------------------------------------------
+Frame 67, Track 0:
+  Confidence: 0.881
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000067_024.jpg
+--------------------------------------------------------------------------------
+Frame 67, Track 1:
+  Confidence: 0.881
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000067_025.jpg
+--------------------------------------------------------------------------------
+Frame 68, Track 0:
+  Confidence: 0.873
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000068_025.jpg
+--------------------------------------------------------------------------------
+Frame 68, Track 1:
+  Confidence: 0.880
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000068_026.jpg
+--------------------------------------------------------------------------------
+Frame 69, Track 0:
+  Confidence: 0.881
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000069_026.jpg
+--------------------------------------------------------------------------------
+Frame 69, Track 1:
+  Confidence: 0.882
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000069_027.jpg
+--------------------------------------------------------------------------------
+Frame 70, Track 0:
+  Confidence: 0.885
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000070_027.jpg
+--------------------------------------------------------------------------------
+Frame 70, Track 1:
+  Confidence: 0.881
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000070_028.jpg
+--------------------------------------------------------------------------------
+Frame 71, Track 0:
+  Confidence: 0.884
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000071_028.jpg
+--------------------------------------------------------------------------------
+Frame 71, Track 1:
+  Confidence: 0.882
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000071_029.jpg
+--------------------------------------------------------------------------------
+Frame 72, Track 0:
+  Confidence: 0.879
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000072_029.jpg
+--------------------------------------------------------------------------------
+Frame 72, Track 1:
+  Confidence: 0.892
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000072_030.jpg
+--------------------------------------------------------------------------------
+Frame 73, Track 0:
+  Confidence: 0.884
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000073_030.jpg
+--------------------------------------------------------------------------------
+Frame 73, Track 1:
+  Confidence: 0.903
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000073_031.jpg
+--------------------------------------------------------------------------------
+Frame 74, Track 0:
+  Confidence: 0.878
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000074_031.jpg
+--------------------------------------------------------------------------------
+Frame 74, Track 1:
+  Confidence: 0.908
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000074_032.jpg
+--------------------------------------------------------------------------------
+Frame 75, Track 0:
+  Confidence: 0.882
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000075_032.jpg
+--------------------------------------------------------------------------------
+Frame 75, Track 1:
+  Confidence: 0.902
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000075_033.jpg
+--------------------------------------------------------------------------------
+Frame 76, Track 0:
+  Confidence: 0.882
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000076_033.jpg
+--------------------------------------------------------------------------------
+Frame 76, Track 1:
+  Confidence: 0.905
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000076_034.jpg
+--------------------------------------------------------------------------------
+Frame 77, Track 0:
+  Confidence: 0.869
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000077_034.jpg
+--------------------------------------------------------------------------------
+Frame 77, Track 1:
+  Confidence: 0.902
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000077_035.jpg
+--------------------------------------------------------------------------------
+Frame 78, Track 0:
+  Confidence: 0.868
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000078_035.jpg
+--------------------------------------------------------------------------------
+Frame 78, Track 1:
+  Confidence: 0.903
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000078_036.jpg
+--------------------------------------------------------------------------------
+Frame 79, Track 0:
+  Confidence: 0.868
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000079_036.jpg
+--------------------------------------------------------------------------------
+Frame 79, Track 1:
+  Confidence: 0.889
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000079_037.jpg
+--------------------------------------------------------------------------------
+Frame 80, Track 0:
+  Confidence: 0.875
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000080_037.jpg
+--------------------------------------------------------------------------------
+Frame 80, Track 1:
+  Confidence: 0.889
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000080_038.jpg
+--------------------------------------------------------------------------------
+Frame 81, Track 0:
+  Confidence: 0.869
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000081_038.jpg
+--------------------------------------------------------------------------------
+Frame 81, Track 1:
+  Confidence: 0.880
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000081_039.jpg
+--------------------------------------------------------------------------------
+Frame 82, Track 0:
+  Confidence: 0.871
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000082_039.jpg
+--------------------------------------------------------------------------------
+Frame 82, Track 1:
+  Confidence: 0.875
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000082_040.jpg
+--------------------------------------------------------------------------------
+Frame 83, Track 0:
+  Confidence: 0.857
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000083_040.jpg
+--------------------------------------------------------------------------------
+Frame 83, Track 1:
+  Confidence: 0.878
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000083_041.jpg
+--------------------------------------------------------------------------------
+Frame 84, Track 0:
+  Confidence: 0.844
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000084_041.jpg
+--------------------------------------------------------------------------------
+Frame 84, Track 1:
+  Confidence: 0.883
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000084_042.jpg
+--------------------------------------------------------------------------------
+Frame 85, Track 0:
+  Confidence: 0.843
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000085_042.jpg
+--------------------------------------------------------------------------------
+Frame 85, Track 1:
+  Confidence: 0.894
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000085_043.jpg
+--------------------------------------------------------------------------------
+Frame 86, Track 0:
+  Confidence: 0.857
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000086_043.jpg
+--------------------------------------------------------------------------------
+Frame 86, Track 1:
+  Confidence: 0.879
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000086_044.jpg
+--------------------------------------------------------------------------------
+Frame 87, Track 0:
+  Confidence: 0.864
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000087_044.jpg
+--------------------------------------------------------------------------------
+Frame 87, Track 1:
+  Confidence: 0.876
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000087_045.jpg
+--------------------------------------------------------------------------------
+Frame 88, Track 0:
+  Confidence: 0.838
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_0\frame_000088_045.jpg
+--------------------------------------------------------------------------------
+Frame 88, Track 1:
+  Confidence: 0.831
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000088_046.jpg
+--------------------------------------------------------------------------------
+Frame 89, Track 0: Detected (confidence: 0.798) but not saved (below 0.8)
+  Came in through border: False
+Frame 89, Track 1:
+  Confidence: 0.825
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000089_047.jpg
+--------------------------------------------------------------------------------
+Frame 90, Track 0: Detected (confidence: 0.781) but not saved (below 0.8)
+  Came in through border: False
+Frame 90, Track 1: Detected (confidence: 0.768) but not saved (below 0.8)
+  Came in through border: False
+Frame 91, Track 0: Detected (confidence: 0.744) but not saved (below 0.8)
+  Came in through border: False
+Frame 91, Track 1: Detected (confidence: 0.771) but not saved (below 0.8)
+  Came in through border: False
+Frame 92, Track 0: Detected (confidence: 0.719) but not saved (below 0.8)
+  Came in through border: False
+Frame 92, Track 1:
+  Confidence: 0.801
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000092_048.jpg
+--------------------------------------------------------------------------------
+Frame 93, Track 0: Detected (confidence: 0.679) but not saved (below 0.8)
+  Came in through border: False
+Frame 93, Track 1:
+  Confidence: 0.839
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000093_049.jpg
+--------------------------------------------------------------------------------
+Frame 94, Track 0: Detected (confidence: 0.722) but not saved (below 0.8)
+  Came in through border: False
+Frame 94, Track 1:
+  Confidence: 0.817
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_1\frame_000094_050.jpg
+--------------------------------------------------------------------------------
+Frame 95, Track 0: Detected (confidence: 0.739) but not saved (below 0.8)
+  Came in through border: False
+Frame 95, Track 1: Detected (confidence: 0.787) but not saved (below 0.8)
+  Came in through border: False
+Frame 96, Track 0: Detected (confidence: 0.742) but not saved (below 0.8)
+  Came in through border: False
+Frame 96, Track 1: Detected (confidence: 0.789) but not saved (below 0.8)
+  Came in through border: False
+Frame 97, Track 0: Detected (confidence: 0.726) but not saved (below 0.8)
+  Came in through border: False
+Frame 97, Track 1: Detected (confidence: 0.730) but not saved (below 0.8)
+  Came in through border: False
+Frame 98, Track 0: Detected (confidence: 0.726) but not saved (below 0.8)
+  Came in through border: False
+Frame 98, Track 1: Detected (confidence: 0.663) but not saved (below 0.8)
+  Came in through border: False
+Frame 99, Track 0: Detected (confidence: 0.729) but not saved (below 0.8)
+  Came in through border: False
+Frame 99, Track 1: Detected (confidence: 0.554) but not saved (below 0.8)
+  Came in through border: False
+Frame 100, Track 0: Detected (confidence: 0.690) but not saved (below 0.8)
+  Came in through border: False
+Frame 101, Track 0: Detected (confidence: 0.757) but not saved (below 0.8)
+  Came in through border: False
+Frame 102, Track 0: Detected (confidence: 0.711) but not saved (below 0.8)
+  Came in through border: False
+Frame 103, Track 0: Detected (confidence: 0.722) but not saved (below 0.8)
+  Came in through border: False
+Frame 104, Track 0: Detected (confidence: 0.741) but not saved (below 0.8)
+  Came in through border: False
+Frame 105, Track 0: Detected (confidence: 0.761) but not saved (below 0.8)
+  Came in through border: False
+Frame 106, Track 0: Detected (confidence: 0.740) but not saved (below 0.8)
+  Came in through border: False
+Frame 107, Track 0: Detected (confidence: 0.743) but not saved (below 0.8)
+  Came in through border: False
+Frame 108, Track 0: Detected (confidence: 0.745) but not saved (below 0.8)
+  Came in through border: False
+Frame 109: No faces detected above tracking threshold (0.5)
+Frame 110, Track 2: Detected (confidence: 0.659) but not saved (below 0.8)
+  Came in through border: False
+Frame 111, Track 2: Detected (confidence: 0.704) but not saved (below 0.8)
+  Came in through border: False
+Frame 112, Track 2: Detected (confidence: 0.704) but not saved (below 0.8)
+  Came in through border: False
+Frame 113, Track 2: Detected (confidence: 0.700) but not saved (below 0.8)
+  Came in through border: False
+Frame 113, Track 3: Detected (confidence: 0.541) but not saved (below 0.8)
+  Came in through border: False
+Frame 114, Track 2: Detected (confidence: 0.720) but not saved (below 0.8)
+  Came in through border: False
+Frame 115, Track 2: Detected (confidence: 0.655) but not saved (below 0.8)
+  Came in through border: False
+Frame 116, Track 2: Detected (confidence: 0.753) but not saved (below 0.8)
+  Came in through border: False
+Frame 117, Track 2: Detected (confidence: 0.757) but not saved (below 0.8)
+  Came in through border: False
+Frame 118, Track 2: Detected (confidence: 0.754) but not saved (below 0.8)
+  Came in through border: False
+Frame 118, Track 4: Detected (confidence: 0.587) but not saved (below 0.8)
+  Came in through border: False
+Frame 119, Track 2: Detected (confidence: 0.760) but not saved (below 0.8)
+  Came in through border: False
+Frame 119, Track 4: Detected (confidence: 0.585) but not saved (below 0.8)
+  Came in through border: False
+Frame 120, Track 2: Detected (confidence: 0.755) but not saved (below 0.8)
+  Came in through border: False
+Frame 120, Track 4: Detected (confidence: 0.709) but not saved (below 0.8)
+  Came in through border: False
+Frame 121, Track 2: Detected (confidence: 0.713) but not saved (below 0.8)
+  Came in through border: False
+Frame 121, Track 4: Detected (confidence: 0.730) but not saved (below 0.8)
+  Came in through border: False
+Frame 122, Track 4: Detected (confidence: 0.554) but not saved (below 0.8)
+  Came in through border: False
+Frame 123, Track 2: Detected (confidence: 0.631) but not saved (below 0.8)
+  Came in through border: False
+Frame 124, Track 2: Detected (confidence: 0.635) but not saved (below 0.8)
+  Came in through border: False
+Frame 125: No faces detected above tracking threshold (0.5)
+Frame 126, Track 5: Detected (confidence: 0.597) but not saved (below 0.8)
+  Came in through border: False
+Frame 127, Track 5: Detected (confidence: 0.680) but not saved (below 0.8)
+  Came in through border: False
+Frame 128, Track 5: Detected (confidence: 0.661) but not saved (below 0.8)
+  Came in through border: False
+Frame 129, Track 5: Detected (confidence: 0.714) but not saved (below 0.8)
+  Came in through border: False
+Frame 130, Track 5: Detected (confidence: 0.677) but not saved (below 0.8)
+  Came in through border: False
+Frame 131, Track 5: Detected (confidence: 0.682) but not saved (below 0.8)
+  Came in through border: False
+Frame 132, Track 5: Detected (confidence: 0.624) but not saved (below 0.8)
+  Came in through border: False
+Frame 133: No faces detected above tracking threshold (0.5)
+Frame 134: No faces detected above tracking threshold (0.5)
+Frame 135: No faces detected above tracking threshold (0.5)
+Frame 136, Track 4: Detected (confidence: 0.610) but not saved (below 0.8)
+  Came in through border: False
+Frame 137, Track 4: Detected (confidence: 0.704) but not saved (below 0.8)
+  Came in through border: False
+Frame 138, Track 4: Detected (confidence: 0.668) but not saved (below 0.8)
+  Came in through border: False
+Frame 139, Track 4: Detected (confidence: 0.710) but not saved (below 0.8)
+  Came in through border: False
+Frame 140, Track 4: Detected (confidence: 0.700) but not saved (below 0.8)
+  Came in through border: False
+Frame 141, Track 4: Detected (confidence: 0.766) but not saved (below 0.8)
+  Came in through border: False
+Frame 142, Track 4: Detected (confidence: 0.741) but not saved (below 0.8)
+  Came in through border: False
+Frame 143, Track 4: Detected (confidence: 0.760) but not saved (below 0.8)
+  Came in through border: False
+Frame 144, Track 4: Detected (confidence: 0.760) but not saved (below 0.8)
+  Came in through border: False
+Frame 145, Track 4: Detected (confidence: 0.790) but not saved (below 0.8)
+  Came in through border: False
+Frame 146, Track 4: Detected (confidence: 0.779) but not saved (below 0.8)
+  Came in through border: False
+Frame 147, Track 4: Detected (confidence: 0.795) but not saved (below 0.8)
+  Came in through border: False
+Frame 148, Track 4: Detected (confidence: 0.799) but not saved (below 0.8)
+  Came in through border: False
+Frame 149, Track 4:
+  Confidence: 0.802
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000149_000.jpg
+--------------------------------------------------------------------------------
+Frame 150, Track 4:
+  Confidence: 0.818
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000150_001.jpg
+--------------------------------------------------------------------------------
+Frame 151, Track 4:
+  Confidence: 0.830
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000151_002.jpg
+--------------------------------------------------------------------------------
+Frame 152, Track 4:
+  Confidence: 0.842
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000152_003.jpg
+--------------------------------------------------------------------------------
+Frame 153, Track 4:
+  Confidence: 0.817
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000153_004.jpg
+--------------------------------------------------------------------------------
+Frame 154, Track 4:
+  Confidence: 0.832
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000154_005.jpg
+--------------------------------------------------------------------------------
+Frame 155, Track 4:
+  Confidence: 0.830
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000155_006.jpg
+--------------------------------------------------------------------------------
+Frame 156, Track 4:
+  Confidence: 0.865
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000156_007.jpg
+--------------------------------------------------------------------------------
+Frame 157, Track 4:
+  Confidence: 0.835
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000157_008.jpg
+--------------------------------------------------------------------------------
+Frame 158, Track 4:
+  Confidence: 0.842
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000158_009.jpg
+--------------------------------------------------------------------------------
+Frame 159, Track 4:
+  Confidence: 0.851
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000159_010.jpg
+--------------------------------------------------------------------------------
+Frame 160, Track 4:
+  Confidence: 0.860
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000160_011.jpg
+--------------------------------------------------------------------------------
+Frame 160, Track 6: Detected (confidence: 0.572) but not saved (below 0.8)
+  Came in through border: False
+Frame 161, Track 4:
+  Confidence: 0.865
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000161_012.jpg
+--------------------------------------------------------------------------------
+Frame 162, Track 4:
+  Confidence: 0.874
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000162_013.jpg
+--------------------------------------------------------------------------------
+Frame 163, Track 4:
+  Confidence: 0.860
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000163_014.jpg
+--------------------------------------------------------------------------------
+Frame 163, Track 6: Detected (confidence: 0.729) but not saved (below 0.8)
+  Came in through border: False
+Frame 164, Track 4:
+  Confidence: 0.874
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000164_015.jpg
+--------------------------------------------------------------------------------
+Frame 164, Track 6: Detected (confidence: 0.717) but not saved (below 0.8)
+  Came in through border: False
+Frame 165, Track 4:
+  Confidence: 0.862
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000165_016.jpg
+--------------------------------------------------------------------------------
+Frame 165, Track 6: Detected (confidence: 0.665) but not saved (below 0.8)
+  Came in through border: False
+Frame 166, Track 4:
+  Confidence: 0.862
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000166_017.jpg
+--------------------------------------------------------------------------------
+Frame 166, Track 6: Detected (confidence: 0.529) but not saved (below 0.8)
+  Came in through border: False
+Frame 167, Track 4:
+  Confidence: 0.842
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000167_018.jpg
+--------------------------------------------------------------------------------
+Frame 167, Track 6: Detected (confidence: 0.703) but not saved (below 0.8)
+  Came in through border: False
+Frame 168, Track 4:
+  Confidence: 0.871
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000168_019.jpg
+--------------------------------------------------------------------------------
+Frame 168, Track 6: Detected (confidence: 0.753) but not saved (below 0.8)
+  Came in through border: False
+Frame 169, Track 4:
+  Confidence: 0.860
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000169_020.jpg
+--------------------------------------------------------------------------------
+Frame 169, Track 6: Detected (confidence: 0.763) but not saved (below 0.8)
+  Came in through border: False
+Frame 170, Track 4:
+  Confidence: 0.873
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000170_021.jpg
+--------------------------------------------------------------------------------
+Frame 170, Track 6: Detected (confidence: 0.774) but not saved (below 0.8)
+  Came in through border: False
+Frame 171, Track 4:
+  Confidence: 0.880
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000171_022.jpg
+--------------------------------------------------------------------------------
+Frame 171, Track 6: Detected (confidence: 0.744) but not saved (below 0.8)
+  Came in through border: False
+Frame 172, Track 4:
+  Confidence: 0.849
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000172_023.jpg
+--------------------------------------------------------------------------------
+Frame 172, Track 6: Detected (confidence: 0.791) but not saved (below 0.8)
+  Came in through border: False
+Frame 173, Track 4:
+  Confidence: 0.809
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_4\frame_000173_024.jpg
+--------------------------------------------------------------------------------
+Frame 173, Track 6:
+  Confidence: 0.831
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000173_000.jpg
+--------------------------------------------------------------------------------
+Frame 174, Track 4: Detected (confidence: 0.695) but not saved (below 0.8)
+  Came in through border: False
+Frame 174, Track 6:
+  Confidence: 0.844
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000174_001.jpg
+--------------------------------------------------------------------------------
+Frame 175, Track 4: Detected (confidence: 0.562) but not saved (below 0.8)
+  Came in through border: False
+Frame 175, Track 6:
+  Confidence: 0.842
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000175_002.jpg
+--------------------------------------------------------------------------------
+Frame 176, Track 6:
+  Confidence: 0.849
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000176_003.jpg
+--------------------------------------------------------------------------------
+Frame 177, Track 6:
+  Confidence: 0.859
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000177_004.jpg
+--------------------------------------------------------------------------------
+Frame 178, Track 6:
+  Confidence: 0.873
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000178_005.jpg
+--------------------------------------------------------------------------------
+Frame 179, Track 6:
+  Confidence: 0.860
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000179_006.jpg
+--------------------------------------------------------------------------------
+Frame 180, Track 6:
+  Confidence: 0.834
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000180_007.jpg
+--------------------------------------------------------------------------------
+Frame 181, Track 6: Detected (confidence: 0.767) but not saved (below 0.8)
+  Came in through border: False
+Frame 182, Track 6: Detected (confidence: 0.747) but not saved (below 0.8)
+  Came in through border: False
+Frame 183, Track 6: Detected (confidence: 0.782) but not saved (below 0.8)
+  Came in through border: False
+Frame 184, Track 6: Detected (confidence: 0.713) but not saved (below 0.8)
+  Came in through border: False
+Frame 185, Track 6: Detected (confidence: 0.640) but not saved (below 0.8)
+  Came in through border: False
+Frame 186, Track 6: Detected (confidence: 0.651) but not saved (below 0.8)
+  Came in through border: False
+Frame 187, Track 6: Detected (confidence: 0.700) but not saved (below 0.8)
+  Came in through border: False
+Frame 188, Track 6: Detected (confidence: 0.685) but not saved (below 0.8)
+  Came in through border: False
+Frame 189, Track 6: Detected (confidence: 0.724) but not saved (below 0.8)
+  Came in through border: False
+Frame 190, Track 6: Detected (confidence: 0.727) but not saved (below 0.8)
+  Came in through border: False
+Frame 191, Track 6: Detected (confidence: 0.713) but not saved (below 0.8)
+  Came in through border: False
+Frame 192, Track 6: Detected (confidence: 0.786) but not saved (below 0.8)
+  Came in through border: False
+Frame 193, Track 6: Detected (confidence: 0.796) but not saved (below 0.8)
+  Came in through border: False
+Frame 194, Track 6: Detected (confidence: 0.774) but not saved (below 0.8)
+  Came in through border: False
+Frame 194, Track 7: Detected (confidence: 0.596) but not saved (below 0.8)
+  Came in through border: False
+Frame 195, Track 6:
+  Confidence: 0.813
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000195_008.jpg
+--------------------------------------------------------------------------------
+Frame 195, Track 7: Detected (confidence: 0.705) but not saved (below 0.8)
+  Came in through border: False
+Frame 196, Track 6: Detected (confidence: 0.763) but not saved (below 0.8)
+  Came in through border: False
+Frame 196, Track 7: Detected (confidence: 0.757) but not saved (below 0.8)
+  Came in through border: False
+Frame 197, Track 6: Detected (confidence: 0.752) but not saved (below 0.8)
+  Came in through border: False
+Frame 197, Track 7: Detected (confidence: 0.796) but not saved (below 0.8)
+  Came in through border: False
+Frame 198, Track 6: Detected (confidence: 0.758) but not saved (below 0.8)
+  Came in through border: False
+Frame 198, Track 7: Detected (confidence: 0.779) but not saved (below 0.8)
+  Came in through border: False
+Frame 199, Track 6: Detected (confidence: 0.792) but not saved (below 0.8)
+  Came in through border: False
+Frame 199, Track 7:
+  Confidence: 0.806
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000199_000.jpg
+--------------------------------------------------------------------------------
+Frame 200, Track 6: Detected (confidence: 0.799) but not saved (below 0.8)
+  Came in through border: False
+Frame 200, Track 7: Detected (confidence: 0.765) but not saved (below 0.8)
+  Came in through border: False
+Frame 201, Track 6:
+  Confidence: 0.815
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_6\frame_000201_009.jpg
+--------------------------------------------------------------------------------
+Frame 201, Track 7:
+  Confidence: 0.810
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000201_001.jpg
+--------------------------------------------------------------------------------
+Frame 202, Track 6: Detected (confidence: 0.795) but not saved (below 0.8)
+  Came in through border: False
+Frame 202, Track 7:
+  Confidence: 0.801
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000202_002.jpg
+--------------------------------------------------------------------------------
+Frame 203, Track 6: Detected (confidence: 0.787) but not saved (below 0.8)
+  Came in through border: False
+Frame 203, Track 7:
+  Confidence: 0.804
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000203_003.jpg
+--------------------------------------------------------------------------------
+Frame 204, Track 6: Detected (confidence: 0.741) but not saved (below 0.8)
+  Came in through border: False
+Frame 204, Track 7:
+  Confidence: 0.802
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000204_004.jpg
+--------------------------------------------------------------------------------
+Frame 205, Track 6: Detected (confidence: 0.720) but not saved (below 0.8)
+  Came in through border: False
+Frame 205, Track 7:
+  Confidence: 0.802
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000205_005.jpg
+--------------------------------------------------------------------------------
+Frame 206, Track 6: Detected (confidence: 0.682) but not saved (below 0.8)
+  Came in through border: False
+Frame 206, Track 7:
+  Confidence: 0.830
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000206_006.jpg
+--------------------------------------------------------------------------------
+Frame 207, Track 6: Detected (confidence: 0.723) but not saved (below 0.8)
+  Came in through border: False
+Frame 207, Track 7:
+  Confidence: 0.842
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000207_007.jpg
+--------------------------------------------------------------------------------
+Frame 208, Track 6: Detected (confidence: 0.684) but not saved (below 0.8)
+  Came in through border: False
+Frame 208, Track 7:
+  Confidence: 0.812
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000208_008.jpg
+--------------------------------------------------------------------------------
+Frame 209, Track 7:
+  Confidence: 0.823
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000209_009.jpg
+--------------------------------------------------------------------------------
+Frame 210, Track 7:
+  Confidence: 0.831
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000210_010.jpg
+--------------------------------------------------------------------------------
+Frame 211, Track 7:
+  Confidence: 0.851
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000211_011.jpg
+--------------------------------------------------------------------------------
+Frame 212, Track 7:
+  Confidence: 0.853
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000212_012.jpg
+--------------------------------------------------------------------------------
+Frame 213, Track 7:
+  Confidence: 0.815
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000213_013.jpg
+--------------------------------------------------------------------------------
+Frame 214, Track 7: Detected (confidence: 0.798) but not saved (below 0.8)
+  Came in through border: False
+Frame 215, Track 7: Detected (confidence: 0.793) but not saved (below 0.8)
+  Came in through border: False
+Frame 216, Track 7: Detected (confidence: 0.779) but not saved (below 0.8)
+  Came in through border: False
+Frame 217, Track 7: Detected (confidence: 0.768) but not saved (below 0.8)
+  Came in through border: False
+Frame 218, Track 7: Detected (confidence: 0.746) but not saved (below 0.8)
+  Came in through border: False
+Frame 219, Track 7: Detected (confidence: 0.774) but not saved (below 0.8)
+  Came in through border: False
+Frame 220, Track 7: Detected (confidence: 0.776) but not saved (below 0.8)
+  Came in through border: False
+Frame 221, Track 7: Detected (confidence: 0.799) but not saved (below 0.8)
+  Came in through border: False
+Frame 222, Track 7:
+  Confidence: 0.806
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000222_014.jpg
+--------------------------------------------------------------------------------
+Frame 223, Track 7: Detected (confidence: 0.785) but not saved (below 0.8)
+  Came in through border: False
+Frame 224, Track 7: Detected (confidence: 0.794) but not saved (below 0.8)
+  Came in through border: False
+Frame 225, Track 7: Detected (confidence: 0.788) but not saved (below 0.8)
+  Came in through border: False
+Frame 226, Track 7: Detected (confidence: 0.799) but not saved (below 0.8)
+  Came in through border: False
+Frame 227, Track 7:
+  Confidence: 0.807
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000227_015.jpg
+--------------------------------------------------------------------------------
+Frame 228, Track 7:
+  Confidence: 0.822
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000228_016.jpg
+--------------------------------------------------------------------------------
+Frame 229, Track 7:
+  Confidence: 0.834
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000229_017.jpg
+--------------------------------------------------------------------------------
+Frame 230, Track 7:
+  Confidence: 0.841
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000230_018.jpg
+--------------------------------------------------------------------------------
+Frame 231, Track 7:
+  Confidence: 0.838
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000231_019.jpg
+--------------------------------------------------------------------------------
+Frame 232, Track 7:
+  Confidence: 0.863
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000232_020.jpg
+--------------------------------------------------------------------------------
+Frame 233, Track 7:
+  Confidence: 0.851
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000233_021.jpg
+--------------------------------------------------------------------------------
+Frame 234, Track 7:
+  Confidence: 0.849
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000234_022.jpg
+--------------------------------------------------------------------------------
+Frame 235, Track 7:
+  Confidence: 0.876
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000235_023.jpg
+--------------------------------------------------------------------------------
+Frame 236, Track 7:
+  Confidence: 0.874
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000236_024.jpg
+--------------------------------------------------------------------------------
+Frame 237, Track 7:
+  Confidence: 0.864
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000237_025.jpg
+--------------------------------------------------------------------------------
+Frame 238, Track 7:
+  Confidence: 0.868
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000238_026.jpg
+--------------------------------------------------------------------------------
+Frame 239, Track 7:
+  Confidence: 0.868
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000239_027.jpg
+--------------------------------------------------------------------------------
+Frame 240, Track 7:
+  Confidence: 0.865
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000240_028.jpg
+--------------------------------------------------------------------------------
+Frame 241, Track 7:
+  Confidence: 0.866
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000241_029.jpg
+--------------------------------------------------------------------------------
+Frame 242, Track 7:
+  Confidence: 0.856
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000242_030.jpg
+--------------------------------------------------------------------------------
+Frame 243, Track 7:
+  Confidence: 0.847
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000243_031.jpg
+--------------------------------------------------------------------------------
+Frame 244, Track 7:
+  Confidence: 0.856
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000244_032.jpg
+--------------------------------------------------------------------------------
+Frame 245, Track 7:
+  Confidence: 0.871
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000245_033.jpg
+--------------------------------------------------------------------------------
+Frame 246, Track 7:
+  Confidence: 0.862
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000246_034.jpg
+--------------------------------------------------------------------------------
+Frame 247, Track 7:
+  Confidence: 0.857
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000247_035.jpg
+--------------------------------------------------------------------------------
+Frame 248, Track 7:
+  Confidence: 0.845
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000248_036.jpg
+--------------------------------------------------------------------------------
+Frame 249, Track 7:
+  Confidence: 0.863
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000249_037.jpg
+--------------------------------------------------------------------------------
+Frame 250, Track 7:
+  Confidence: 0.863
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000250_038.jpg
+--------------------------------------------------------------------------------
+Frame 250, Track 8: Detected (confidence: 0.572) but not saved (below 0.8)
+  Came in through border: False
+Frame 251, Track 7:
+  Confidence: 0.863
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000251_039.jpg
+--------------------------------------------------------------------------------
+Frame 252, Track 7:
+  Confidence: 0.829
+  Method: expanded_bbox
+  Landmarks detected: False
+  Came in through border: False
+  Saved to: .\test_pipeline_output\stream_1\faces\track_7\frame_000252_040.jpg
+--------------------------------------------------------------------------------
+Frame 253, Track 7: Detected (confidence: 0.660) but not saved (below 0.8)
+  Came in through border: False
+Frame 254: No faces detected above tracking threshold (0.5)
+Frame 255: No faces detected above tracking threshold (0.5)
+Frame 256, Track 9: Detected (confidence: 0.522) but not saved (below 0.8)
+  Came in through border: False
+Frame 257: No faces detected above tracking threshold (0.5)
+Frame 258: No faces detected above tracking threshold (0.5)
+Frame 259: No faces detected above tracking threshold (0.5)
+Frame 260: No faces detected above tracking threshold (0.5)
+Frame 261: No faces detected above tracking threshold (0.5)
+Frame 262: No faces detected above tracking threshold (0.5)
+Frame 263: No faces detected above tracking threshold (0.5)
+Frame 264: No faces detected above tracking threshold (0.5)
+Frame 265: No faces detected above tracking threshold (0.5)
+Frame 266: No faces detected above tracking threshold (0.5)
+Frame 267: No faces detected above tracking threshold (0.5)
+Frame 268: No faces detected above tracking threshold (0.5)
+Frame 269: No faces detected above tracking threshold (0.5)
+Frame 270: No faces detected above tracking threshold (0.5)
+Frame 271: No faces detected above tracking threshold (0.5)
+Frame 272: No faces detected above tracking threshold (0.5)
+Frame 273: No faces detected above tracking threshold (0.5)
+Frame 274: No faces detected above tracking threshold (0.5)
+Frame 275: No faces detected above tracking threshold (0.5)
+Frame 276: No faces detected above tracking threshold (0.5)
+
+Processing Summary:
+Total frames processed: 276 / 276
+New tracks added: 10
+Total tracks: 10
+Tracks exited off-screen: 5
+Tracking threshold: 0.5, Saving threshold: 0.8
+Track image counts (high confidence only):
+  Track 0: 46 images, Entered through border: No
+  Track 1: 51 images, Entered through border: No
+  Track 4: 25 images, Entered through border: No
+  Track 6: 10 images, Entered through border: No
+  Track 7: 41 images, Entered through border: No

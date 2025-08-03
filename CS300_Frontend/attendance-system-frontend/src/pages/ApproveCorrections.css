@@ -1,0 +1,247 @@
+/* Approve Corrections Styles */
+.approve-corrections-container {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  animation: slideIn 0.4s ease-out;
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.page-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #3498db;
+  margin: 0.8rem auto;
+  border-radius: 2px;
+}
+
+/* Bulk Actions */
+.bulk-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-bottom: 2px solid #e0e6ed;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #3498db;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #2980b9;
+  transform: translateY(-1px);
+}
+
+.btn-danger {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: #c0392b;
+  transform: translateY(-1px);
+}
+
+.btn:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Corrections Table */
+.corrections-table-container {
+  border: 1px solid #e0e6ed;
+  border-radius: 10px;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.corrections-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  min-width: 1000px;
+}
+
+.corrections-table th {
+  background: #2c3e50;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: left;
+}
+
+.corrections-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e6ed;
+  color: #2c3e50;
+  vertical-align: top;
+}
+
+.corrections-table tr:last-child td {
+  border-bottom: none;
+}
+
+.corrections-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Table Cells */
+.select-cell {
+  text-align: center;
+}
+
+.select-cell input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #3498db;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.approve-btn {
+  background: #27ae60;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.reject-btn {
+  background: #e74c3c;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.image-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.image-link:hover {
+  text-decoration: underline;
+}
+
+/* Feedback Textarea */
+.feedback-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  min-height: 80px;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.feedback-textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* Empty State */
+.no-corrections {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  border: 2px dashed #e0e6ed;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+/* Messages */
+.success-message {
+  color: #27ae60;
+  background: #e8f5e9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #27ae60;
+}
+
+.error-message {
+  color: #e74c3c;
+  background: #ffebee;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e74c3c;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.2rem;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .approve-corrections-container {
+    padding: 1rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  .bulk-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .corrections-table td,
+  .corrections-table th {
+    padding: 0.8rem;
+  }
+
+  .actions-cell {
+    flex-direction: column;
+  }
+}

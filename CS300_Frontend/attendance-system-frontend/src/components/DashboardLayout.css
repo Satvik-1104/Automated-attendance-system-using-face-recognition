@@ -1,0 +1,131 @@
+/* Dashboard Layout - Base Styles */
+
+/* Core Layout Structure */
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.dashboard-sidebar {
+  width: 280px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 280px;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+/* Dashboard Title */
+.dashboard-title {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Navigation Styles */
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0.5rem 0;
+}
+
+.dashboard-nav-link:hover,
+.dashboard-nav-link.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: #3498db;
+}
+
+.nav-icon {
+  font-size: 1.2rem;
+}
+
+/* Logout Button */
+.logout-section {
+  margin-top: 2rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background: #2980b9;
+}
+
+/* Mobile Styles */
+.mobile-menu-toggle {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .dashboard-sidebar {
+    transform: translateX(-100%);
+    width: 280px;
+    z-index: 999;
+  }
+
+  .dashboard-sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .dashboard-content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+}
+
+/* Active State Enhancement */
+.dashboard-nav-link.active {
+  background: #3498db;
+  color: white !important;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+}
