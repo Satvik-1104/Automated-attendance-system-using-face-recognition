@@ -3,7 +3,7 @@
 
 A real-world, production-grade project developed as part of the B.Tech curriculum at **IIIT Guwahati**, this system automates classroom attendance using deep learning-powered face recognition and a secure, scalable backend.
 
-> 🎓 Built by [Vadisetti Pranay Satvik Reddy (2201221)](mailto:vadisetti.reddy22b@iiitg.ac.in) and [N. Divyagnan Reddy (2201130)]  
+> 🎓 Built by [Vadisetti Pranay Satvik Reddy (2201221)](mailto:vadisetti.reddy22b@iiitg.ac.in) and [N. Divyagnan Reddy (2201130)](mailto:nibbaragandla.reddy22b@iiitg.ac.in) 
 > 🧑‍🏫 Guided by **Dr. Upasana Talukdar**, CSE Dept., IIIT Guwahati
 
 ---
